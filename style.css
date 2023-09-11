@@ -1,0 +1,20 @@
+body {
+    background-image: url("kep1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: valtas;
+    animation-iteration-count: infinite ;
+    animation-duration: 4s;
+  }
+  
+  @keyframes valtas {
+    from {background-image: url("kep1.jfif");}
+    to {background-image: url("kep2.jpg");}
+  }
